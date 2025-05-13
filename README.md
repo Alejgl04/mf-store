@@ -1,59 +1,70 @@
-# MfStore
+# Angular course 2025 edition
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+> This Angular course was created to explain versions 18 and 19++, updated to 2025.
 
-## Development server
+## Built With
 
-To start a local development server, run:
+- Angular
+- TypeScript
+- tailwind
 
-```bash
-ng serve
-```
+## Getting Started
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+To get a local copy up and running, follow these simple example steps:
 
-## Code scaffolding
+- On the project GitHub page, navigate to the [main page of the repository](https://github.com/Alejgl04)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- Click on a button named `code`
 
-```bash
-ng generate component component-name
-```
+- Copy the project URL as displayed on the HTTPS tab
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- Open your command prompt if you're running the Windows Operating System. On Linux, open your terminal
 
-```bash
-ng generate --help
-```
+- Change the current working directory to the location where you want the cloned directory to be. Leave it as it is if the current location is where you want the project to be.
 
-## Building
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
-To build the project run:
+  `$ git clone https://github.com/Alejgl04/mf-store.git` <em>Press Enter key</em><br>
 
-```bash
-ng build
-```
+- Your local copy will be created.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Please note that you must have Git installed on your PC This can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
 
-## Running unit tests
+- After you get the project aiming at the desired directory, you need to install dependencies by running npm install.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Usage 
 
-```bash
-ng test
-```
+- Make sure you have npm and node installed.
 
-## Running end-to-end tests
+- I recommend the use of VS Code as a code editor, but you can use any code editor.
 
-For end-to-end (e2e) testing, run:
+- Run in your terminal `npm start` OR `yarn start` to run the app in your default browser.
 
-```bash
-ng e2e
-```
+- You should see the todo form ready to be used.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- Add a name for the task owner (description is optional).
 
-## Additional Resources
+- Hit the create button to create your to-do.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- You can either check it when DONE or remove it by hitting the trash icon.
+
+## Authors
+
+👤 **Alejandro Guerrero**
+
+- GitHub: [github](https://github.com/Alejgl04)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alejandro-guerrero-75479a152/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
