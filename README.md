@@ -1,6 +1,6 @@
-# Angular course 2025 edition
+# Build a simple store with *Angular +19*
 
-> This Angular course was created to explain versions 18 and 19++, updated to 2025.
+> This Angular project is for everyone who wants to start learning how to create a ecommerce.
 
 ## Built With
 
