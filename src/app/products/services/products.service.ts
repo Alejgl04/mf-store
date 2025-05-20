@@ -28,10 +28,7 @@ export class ProductsService {
         offset,
         gender,
       }
-    })
-    .pipe(
-      tap( resp => console.log(resp)),
-    )
+    });
   }
 
   getProductByIdSlug(idSlug: string): Observable<Product> {
