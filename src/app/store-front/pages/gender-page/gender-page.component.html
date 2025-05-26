@@ -12,3 +12,8 @@
   }
 
 </div>
+<hr class="border-secondary">
+<app-pagination
+  [pages]="productsResource.value()?.pages ?? 0"
+  [currentPage]="paginationService.currentPage()"
+/>
