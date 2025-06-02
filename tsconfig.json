@@ -11,6 +11,7 @@
       "@shared/*": ["./src/app/shared/*"],
       "@store-front/*": ["./src/app/store-front/*"],
       "@environments/*": ["./src/environments/*"],
+      "@utils/*": ["./src/app/utils/*"],
     },
     "outDir": "./dist/out-tsc",
     "strict": true,

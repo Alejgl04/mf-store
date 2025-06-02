@@ -64,5 +64,31 @@ export class ProductsService {
     )
   }
 
+  updateProduct(id: string, productLike: Partial<Product>): Observable<Product> {
+
+    return this.http.patch<Product>(`${baseURL}/products/${id}`, productLike).pipe(
+      tap((product) => {
+        this.updateProductCatch(product)
+      })
+    )
+
+  }
+
+  updateProductCatch(product: Product) {
+    const productId = product.id;
+
+    this.productByIdCache.set(productId, product);
+
+    this.productsCache.forEach(( productResponse ) => {
+
+      productResponse.products = productResponse.products.map(( currentProduct ) => {
+
+        return currentProduct.id === productId ? product : currentProduct
+
+      });
+
+    });
+
+  }
 
 }

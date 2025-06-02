@@ -10,8 +10,12 @@ export const isAdminGuard: CanMatchFn = async(
 ) => {
 
   const authService = inject(AuthService);
+  const router = inject(Router);
 
   await firstValueFrom(authService.checkStatus());
 
-  return authService.isAdmin();
+  if (!authService.isAdmin()) {
+    router.navigateByUrl('/auth/login')
+  }
+  return true;
 }
